@@ -33,7 +33,7 @@ def SUB_FOR_SUB(func):
                 f"""
 <b>Hey 👋 {rpk} Untuk dapat memutar musik. Kamu harus Join Dulu Nih Ke Channel Terimakasih ❤️
 
-Sfs Back PC [ɢϻᴄᴋ • ᴋᴀʟᴇɴɢ sᴀʀᴅᴇɴ](tg://user?id=6364920674)</b>
+Sfs Back PC <a href="https://t.me/usernametarget">ɢϻᴄᴋ • ᴋᴀʟᴇɴɢ sᴀʀᴅᴇɴ</a></b>
 """,
                 disable_web_page_preview=True,
                 reply_markup=buttons,
