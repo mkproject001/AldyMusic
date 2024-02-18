@@ -7,22 +7,22 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", "28633257"))
-API_HASH = getenv("API_HASH", "0330ec89ddab0d2bfdf8e263a68ec510")
+API_ID = int(getenv("API_ID", "28593412"))
+API_HASH = getenv("API_HASH", "eb7ab10e385bd0f592a0a9b91d75413e")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "6946015140:AAGAZmdoekBfbf-U8UOYOf4iypzO42osTSo")
+BOT_TOKEN = getenv("BOT_TOKEN", "6353605068:AAFxGyMsUJLyQZgjeVDCzmneGV-9ikRrW3o")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://musickaleng:1234@cluster0.wsurn4s.mongodb.net/>")
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 180))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 380))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", "-1002066359389"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002124592610"))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 6364920674))
+OWNER_ID = int(getenv("OWNER_ID", 1909322919))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -39,7 +39,7 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Chkaleng")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/KalengCh")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Kalengrobotsupport")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
@@ -81,7 +81,7 @@ START_IMG_URL = getenv(
     "START_IMG_URL", "https://telegra.ph/file/ad945e76e0f1840982bac.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://te.legra.ph/file/b8a0c1a00db3e57522b53.jpg"
+    "PING_IMG_URL", "https://telegra.ph//file/271f709d4f346ac6f427e.jpg"
 )
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
 STATS_IMG_URL = "https://te.legra.ph/file/e906c2def5afe8a9b9120.jpg"
