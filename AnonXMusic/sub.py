@@ -10,7 +10,7 @@ def SUB_FOR_SUB(func):
     async def function(client, message):
         user = message.from_user
         rpk = f"<a href='tg://user?id={user.id}'>{user.first_name} {user.last_name or ''}</a>"
-        vars = "-1002135086772"  # isi id gc atau username yg mau di pakai buat join member (bisa lebih dari 1 fsub nya)
+        vars = "-1001773159109"  # isi id gc atau username yg mau di pakai buat join member (bisa lebih dari 1 fsub nya)
         if not vars:
             return await func(client, message)
         try:
@@ -33,7 +33,7 @@ def SUB_FOR_SUB(func):
                 f"""
 <b>Hey 👋 {rpk} Untuk dapat memutar musik. Kamu harus Join Dulu Nih Ke Channel Terimakasih ❤️
 
-Sfs Back PC <a href="tg://user?id=1909322919">ɢϻᴄᴋ • ᴋᴀʟᴇɴɢ sᴀʀᴅᴇɴ</a></b>
+Sfs Back PC <a href="tg://user?id=1012878998">𝔉𝔞𝔫𝔞𝔱𝔦𝔠´𝚀𝚄𝙴𝙴𝙽⋆</a></b>
 """,
                 disable_web_page_preview=True,
                 reply_markup=buttons,
